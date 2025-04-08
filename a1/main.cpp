@@ -1,3 +1,8 @@
+// EXEMPLE COMMANDS TO COMPILE AND REUN THE TEST FILE
+// @Glen-Sasek-PCC-Instructor ➜ /workspaces/CS-161B (main) $ cd a1
+// @Glen-Sasek-PCC-Instructor ➜ /workspaces/CS-161B/a1 (main) $ g++ main.cpp && ./a.out < test-1.txt && rm ./a.out
+
+
 /******************************************************************************
 # Author:           
 # Assignment:       A01 (CS161B)
