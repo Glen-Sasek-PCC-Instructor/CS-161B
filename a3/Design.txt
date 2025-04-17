@@ -1,0 +1,107 @@
+Program Name:
+
+Program Description:
+
+
+Design:
+A. INPUT
+Define the input variables including name data type. 
+
+B. OUTPUT
+Define the output variables including data types. 
+
+C. CALCULATIONS
+Describe calculations used by algorithms in step D.  
+List all formulas. 
+If there are no calculations needed, state there are no calculations.
+
+D. LOGIC and ALGORITHMS
+Design the logic of your program using pseudocode or flowcharts. 
+Use conditionals, loops, functions or array constructs.
+List the steps in transforming inputs into outputs. 
+
+
+SAMPLE RUNS
+Welcome to my Parallel Arrays program!
+Please enter the list of scores (-1 to end input:)
+Valid scores are between 0 and 4 inclusive.
+>> 3.5
+>> 2.7
+>> 3.3
+>> 2.5
+>> 3.2
+>> 1.5
+>> 4.0
+>> 3.7
+>> -1
+
+Your stats are as below: 
+
+The list of scores and their grades are:
+3.5 A
+2.7 C
+3.3 B
+2.5 C
+3.2 B
+1.5 D
+4.0 A
+3.7 A
+
+The list sorted by scores in ascending order:
+1.5 D
+2.5 C
+2.7 C
+3.2 B
+3.3 B
+3.5 A
+3.7 A
+4.0 A
+
+The median score is 3.25
+
+Thank you for using my Parallel Arrays program!!
+
+
+
+Welcome to my Parallel Arrays program!
+Please enter the list of scores (-1 to end input:)
+Valid scores are between 0 and 4 inclusive.
+>> 3.5
+>> 2.7
+>> 3.3
+>> 4.5
+Invalid score! Please try again!!
+>> abc
+Invalid score! Please try again!!
+>> 3.2
+>> 1.5
+>> 4.0
+>> 3.7
+>> 4.0
+>> -1
+
+Your stats are as below: 
+
+The list of scores and their grades are:
+3.5 A
+2.7 C
+3.3 B
+3.2 B
+1.5 D
+4.0 A
+3.7 A
+4.0 A
+
+The list sorted by scores in ascending order:
+1.5 D
+2.7 C
+3.2 B
+3.3 B
+3.5 A
+3.7 A
+4.0 A
+4.0 A
+
+The median score is 3.40
+
+Thank you for using my Parallel Arrays program!!
