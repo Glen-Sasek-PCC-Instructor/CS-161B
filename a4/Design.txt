@@ -1,0 +1,97 @@
+Program Name:
+
+Program Description:
+
+
+Design:
+A. INPUT
+Define the input variables including name data type. 
+
+B. OUTPUT
+Define the output variables including data types. 
+
+C. CALCULATIONS
+Describe calculations used by algorithms in step D.  
+List all formulas. 
+If there are no calculations needed, state there are no calculations.
+
+D. LOGIC and ALGORITHMS
+Design the logic of your program using pseudocode or flowcharts. 
+Use conditionals, loops, functions or array constructs.
+List the steps in transforming inputs into outputs. 
+
+
+~~~~~~~~~~~~~~~~ SAMPLE 1 ~~~~~~~~~~~~~~~~
+Welcome to my Course Rosters program!!
+Enter course number and students enrolled when prompted.
+Enter Quit or quit for course number when you are done.
+Enter course number: CS133G
+Number of students enrolled: 7
+Enter course number: CS160
+Number of students enrolled: 15
+Enter course number: CS161A
+Number of students enrolled: 21
+Enter course number: CS161B
+Number of students enrolled: 23
+Enter course number: CS162
+Number of students enrolled: 30
+Invalid number!! Please enter a number between 0 and 25
+Number of students enrolled: 25
+Enter course number: CS260
+Number of students enrolled: 5
+Enter course number: Quit
+List of courses and students:
+CS133G 7
+CS160 15
+CS161A 21
+CS161B 23
+CS162 25
+CS260 5
+List after cancellations:
+CS160 15
+CS162A 21
+CS161B 23
+CS162 25
+Thank you for checking out my Course Rosters program!
+
+
+~~~~~~~~~~~~~~~~ SAMPLE 2 ~~~~~~~~~~~~~~~~
+Welcome to my Course Rosters program!!
+Enter course number and students enrolled when prompted.
+Enter Quit or quit for course number when you are done.
+Enter course number: CS133G
+Number of students enrolled: 7
+Enter course number: CS160_1
+Number of students enrolled: 15
+Enter course number: CS161A_1
+Number of students enrolled: 21
+Enter course number: CS161B
+Number of students enrolled: 23
+Enter course number: CS162
+Number of students enrolled: 30
+Invalid number!! Please enter a number between 0 and 25
+Number of students enrolled: 25
+Enter course number: CS260
+Number of students enrolled: 5
+Enter course number: CS160_2
+Number of students enrolled: 7
+Enter course number: CS161A_2
+Number of students enrolled: 25
+Enter course number: quit
+List of courses and students:
+CS133G 7
+CS160_1 15
+CS160_2 7
+CS161A_1 21
+CS161A_2 25
+CS161B 23
+CS162 25
+CS260 5
+List after cancellations:
+CS160_1 15
+CS161A_1 21
+CS161A_2 25
+CS161B 23
+CS162 25
+Thank you for checking out my Course Rosters program!
+
