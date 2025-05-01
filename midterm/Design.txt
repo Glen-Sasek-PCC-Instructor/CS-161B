@@ -1,0 +1,77 @@
+Program Name:
+Exam Instructions on Google Drive
+https://docs.google.com/document/d/1gJzsX6iJpt-6-vyylKf2XM3KJbjT5W50B7NqvflI0Zc/edit?tab=t.0
+
+Program Description:
+
+
+Design:
+A. INPUT
+Define the input variables including name data type. 
+
+B. OUTPUT
+Define the output variables including data types. 
+
+C. CALCULATIONS
+Describe calculations used by algorithms in step D.  
+List all formulas. 
+If there are no calculations needed, state there are no calculations.
+
+D. LOGIC and ALGORITHMS
+Design the logic of your program using pseudocode or flowcharts. 
+Use conditionals, loops, functions or array constructs.
+List the steps in transforming inputs into outputs. 
+
+
+SAMPLE RUNS
+Welcome to the FIFO Queue Program!
+
+Enter option: +
+Integer: 9
+[9]
+
+Enter option: +
+Integer: 3
+[9, 3]
+
+Enter option: +
+Integer: -2
+[9, 3, -2]
+
+Enter option: +
+Integer: 10
+Error: Queue Overflow!
+[9, 3, -2]
+
+Enter option: -
+Integer: 5
+5 is not in the queue.
+[9, 3, -2]
+
+Enter option: -
+Integer: 3
+[-2]
+
+Enter option: @
+Invalid option.
+Enter option: p
+[-2]
+
+Enter option: -
+Integer: -2
+[]
+
+Enter option: -
+Integer: 0
+Queue Empty.
+[]
+
+Enter option: +
+Integer: 23
+[23]
+
+Enter option: q
+
+Goodbye!
+
+
