@@ -1,0 +1,29 @@
+﻿Linux Lab 1 - Using the Command Line
+Instructions for Lab 1
+1. Watch the videos in Module 6, Lesson Linux Tutorials before you do this Lab 1. You must have completed the practice in Chapters 1 and 2 in the PCC Linux and Vim Manual to be able to do this lab.
+2. Here is a video for Lab1, that you can follow along as you do this Lab.
+3. First, login to PCC Linux Server (cslinux.pcc.edu)
+4. Make sure you are in your home directory.
+5. (Your home directory should look like this: yourname@vmcslinuxprod01:~/)
+6. If not type cd and hit enter to get you back to the home directory
+7. From your home directory, start the script command - type script lab1.txt at the command line.
+8. List the files in your current directory        ls
+9. Move into the directory for your class         cd  CS161B (If this directory does not exist, go back to Step 1).
+10. Make a new directory for Lab1         mkdir Lab1
+11. Change into that directory            cd Lab1
+12. Type vi lab1.cpp and hit enter
+13. Insert header comments to your file by typing i followed by comments
+14. When you are done, hit the escape key
+15. Let’s now save our work by typing :w
+16. Add code to this cpp file by following the video or reading through the Linux Manual on How to use Vim, or by using any one of the resources mentioned in the Special PSU Transfer section in your Syllabus
+17. When you are done, hit the escape key
+18. Save and quit your work by typing :wq
+19. The next step is to compile the C++ source code file. To compile the lab1.cpp code type:
+g++ -Wall -g lab1.cpp -o lab1
+20. If there are syntax errors, examine the line number of the first 2 or 3 errors and fix those before continuing. To fix the syntax errors use the Linux editor again:
+vi lab1.cpp
+21. To run your program type ./lab1, and the output will appear directly below. Test your program several times with different inputs and make sure your code is working properly.
+22. Type exit and you are almost done with Lab 1 and you should have an lab1.txt file.
+23. Type ls to list the contents of your directory. You should see lab1.txt
+24. Follow the instructions in the Transferring Files section of your PCC Linux Manual and transfer the file to your pc and upload to D2L with assignment 5.
+25. Now you are done with Lab 1.
