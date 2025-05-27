@@ -1,0 +1,8 @@
+Brenda;Stern;2
+Frank;Grimes;3.4
+Henry;Nguyen;3.5
+Leia;Organa;3.8
+Lynda;Robison;3.2
+Sonya;King;3.9
+Suzie;Homemaker;2.8
+Tom;Sawyer;4
