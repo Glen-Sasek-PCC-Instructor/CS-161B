@@ -1,3 +1,17 @@
 {
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y clang-format"
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y clang-format",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "xaver.clang-format",
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-vscode.cpptools-themes",
+        "ms-vscode.cmake-tools",
+        "GitHub.copilot",
+        "GitHub.copilot-chat",
+        "mathematic.vscode-pdf"
+      ]
+    }
+  }
 }
