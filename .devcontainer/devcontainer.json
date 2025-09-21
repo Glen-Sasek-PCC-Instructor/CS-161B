@@ -1,5 +1,5 @@
 {
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y clang-format",
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y clang-format; sudo apt-get install -y astyle",
   "customizations": {
     "vscode": {
       "extensions": [
