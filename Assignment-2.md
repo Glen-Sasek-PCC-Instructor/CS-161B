@@ -58,7 +58,7 @@ After completing this assignment you will be able to:
 
   * Call the **readInput()** function to read Student ID and filename.
 
-  * Call the **readTime(**) function to read the submitted time. **(\*\*\*new for this level\*\*\*)**
+  * Call the **readTime(**) function to read the submitted time. 
 
   * Fill the **encodeFileName** array based on the six pieces of information adding underscores between.
 
@@ -88,7 +88,7 @@ After completing this assignment you will be able to:
 
   * The name of the file (e.g., prog2.cpp) **(char array)**
 
-* **void readTime(char strTime\[\]) (\*\*\*new for this level\*\*\*)**
+* **void readTime(char strTime\[\]) 
 
   * This is a void function that should read the time from the user as 2 integers and return one char array by reference (that is the strTime array).
 
