@@ -131,68 +131,75 @@ You will need to obtain some information from the user:
 Test your program using the following sample runs, making sure you get the same output when using the given inputs:
 
 ```
+🍇 🍈 🍉   🍋 🍌 🥭   🍎 🍏 🍑   🍒 🫐 
+🍅         🫒    🥥   🥑    🥔    🥕   🥓
+🌽 🫑      🥬    🥦   🧄    🧅   🥜    🫘 
+🌰         🫚    🫛   🫜    🍞   🥐    🥖 
+🫓         🥨 🍗 🥩   🥯 🥞 🧇   🧀 🍖 
+
 Welcome to my Food Cart Program!
-What would you like to do today?  
-Pick an option from below:
-Place an order
-Quit
+
+Pick an option:
+    1. Place an order
+    2. Quit
 >> 9
-Invalid Option! Please choose 1-2!
+Invalid Option!
+
+Pick an option:
+    1. Place an order
+    2. Quit
 >> 1
+
 Enter the name of your item: Pasta
 Enter the cost of your item $: 15.75
 Do you want another item? (y/n): y
+
 Enter the name of your item: Bowl
 Enter the cost of your item $: 12.75
 Do you want another item? (y/n): y
+
 Enter the name of your item: Soda
 Enter the cost of your item $: 3.50
 Do you want another item? (y/n): x
-Invalid Option! Please choose y/n!
+Invalid Option! 
+Do you want another item? (y/n): x
 >> n
 
-Your total is: $32.00
+Your order is: $32.00
+Enter tip $: 3.50
+Your order with tip is: $35.50
+5% discount: $1.78
+Total: $33.73
 
-Enter the amount of tip you want to add $: 3.50
-
-Your total is: $35.50
-You get a 5% discount!
-Your discount is $1.78
-Your final total is: $33.73
-
-What would you like to do today?  
-Pick an option from below:
-Place an order
-Quit
-
+Pick an option:
+    1. Place an order
+    2. Quit
 >> 1
+
 Enter the name of your item: Fajita Bowl
 Enter the cost of your item $: 20.75
 Do you want another item? (y/n): y
+
 Enter the name of your item: Vietnamese plate
 Enter the cost of your item $: 22.75
 Do you want another item? (y/n): y
+
 Enter the name of your item: Soda
 Enter the cost of your item $: 3.50
 Do you want another item? (y/n): x
-Invalid Option! Please choose y/n!
+Invalid Option! 
+Do you want another item? (y/n): x
 >> n
 
-Your total is: $47.00
+Your order is: $47.00
+Enter tip $: 3.50
+Your order with tip is: $35.50
+10% discount: $5.70
+Total: $51.30
 
-Enter the amount of tip you want to add $: 10.00
-
-Your total is: $57.00
-You get a 10% discount!
-Your discount is $5.70
-Your final total is: $51.30
-
-
-What would you like to do today?  
-Pick an option from below:
-Place an order
-Quit
-
+Pick an option:
+    1. Place an order
+    2. Quit
 >> 2
 
 Thank you for using my program!
