@@ -2,6 +2,8 @@
 
 # Assignment 1: Food Cart Ordering 
 
+![Food Truck](https://raw.githubusercontent.com/Glen-Sasek-PCC-Instructor/CS-161B/refs/heads/main/img/Food-Truck.png)
+
 ## Introduction
 
 Have you ever felt the need to do some quick calculations when you order food?  Let’s write a menu-driven program that will do a few calculations based on the user’s choice.
