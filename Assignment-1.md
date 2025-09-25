@@ -162,8 +162,7 @@ Enter the name of your item: Soda
 Enter the cost of your item $: 3.50
 Do you want another item? (y/n): x
 Invalid Option! 
-Do you want another item? (y/n): x
->> n
+Do you want another item? (y/n): n
 
 Your order is: $32.00
 Enter tip $: 3.50
@@ -188,14 +187,13 @@ Enter the name of your item: Soda
 Enter the cost of your item $: 3.50
 Do you want another item? (y/n): x
 Invalid Option! 
-Do you want another item? (y/n): x
->> n
+Do you want another item? (y/n): n
 
 Your order is: $47.00
 Enter tip $: 3.50
-Your order with tip is: $35.50
-10% discount: $5.70
-Total: $51.30
+Your order with tip is: $50.50
+10% discount: $5.05
+Total: $45.45
 
 Pick an option:
     1. Place an order
