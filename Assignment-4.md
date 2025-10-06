@@ -55,7 +55,7 @@ After completing this assignment you will be able to:
   3. Update the count appropriately. If you cancel or remove 3 courses, then count should be subtracted by 3, so the number of courses is updated.  
 * **int main()**  
   1. Declare the arrays for course numbers and students.  
-  2. Call the **readInput()** function and get the arrays filled. **The list must be ordered by the course numbers. This is important for this grade level.**  
+  2. Call the **readInput()** function and get the arrays filled. **The list must be ordered by the course numbers.**  
   3. Call the **printList()** function and print the course numbers and students neatly formatted.  
   4. Call the **cancelCourses()** function and cancel the courses with less than10 students in them.  
   5. Call the **printList()** function again and print the course numbers and students neatly formatted.  
