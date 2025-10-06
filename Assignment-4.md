@@ -21,14 +21,6 @@ After completing this assignment you will be able to:
 
 ## Task 
 
-### What grade would you like?
-
-*We understand that your time and money is valuable, and we want to ensure that this programming assignment is tailored to your needs and circumstances. Whether you are a student juggling multiple commitments, a student dealing with personal responsibilities, or a student facing time constraints, or other issues in life, this assignment aims to provide programming skills at different levels that will meet the objectives of this week. With that in mind this assignment has been broken down into 3 different grade levels \- Grades A (Exceeds), B (Meets) and C (Approaching). **This is the Grade A version.***
-
-### Tasklist for getting a grade A:
-
-The below set of tasks, if completed correctly per the rubric will get you a grade of **Exceeds** and help master the concepts required to learn the objectives for this week’s topic. You can improve your grade by resubmitting the assignment once.
-
 * Before you get started:
 
   * Check out Sample Assignment A04 \- [SampleA04.cpp](https://github.com/Glen-Sasek-PCC-Instructor/CS-161B/blob/main/SampleA04.cpp)
