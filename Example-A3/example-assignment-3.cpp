@@ -60,7 +60,7 @@ using gs::readDouble; // My Example: Create your own library file to reuse code.
 char scoreToChar(double score);
 
 // Use a loop to process each array element and calculate the letter grade for each score.
-void calcGrade(double scores[], char grades[], int count);
+void calcGrades(double scores[], char grades[], int count);
 
 // Go through a for loop and print the scores and the corresponding grades for each item.
 void printList(double scores[], char grades[], int count);
@@ -85,6 +85,8 @@ int main() {
   
   welcome();
   readScores(scores, count);
+  calcGrades(scores, grades, count);
+
   cout << MSG_STATS_HEADER << endl;
   cout << MSG_LIST_SCORES << endl;
   printList(scores, grades, count);
@@ -154,7 +156,7 @@ char scoreToChar(double score) {
   const char GRADE_CHARS[] = {'A', 'B', 'C', 'D', 'F'};
   char c = GRADE_CHARS[F];
   for(int i = A; i < F && c == GRADE_CHARS[F]; i++) {
-    if(score >= GRADE_CUTOFFS[i]) {
+    if(score > GRADE_CUTOFFS[i]) {
       c = GRADE_CHARS[i];
     }
   }
@@ -162,7 +164,7 @@ char scoreToChar(double score) {
 }
 
 // Use a loop to process each array element and calculate the letter grade for each score.
-void calcGrade(double scores[], char grades[], int count) {
+void calcGrades(double scores[], char grades[], int count) {
   for(int i = 0; i < count; i++) {
     grades[i] = scoreToChar(scores[i]);
   }
