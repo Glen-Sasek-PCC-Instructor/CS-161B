@@ -30,9 +30,12 @@
 // PASS ALL GIVEN SAMPLE RUN TESTS ✅: 
 // (Optional) Additional tests count:   
 
+// TEST using make utility config is in Makefile
+// make all test clean
 
 // ------------- CODE -------------
 #include <iostream>
+#include <iomanip>
 #include "gs-lib.h" // Example library file. Create your own to reuse code.
 #include "lang_en.h"
 
@@ -65,14 +68,34 @@ void printList(double scores[], char grades[], int count);
 // Required function
 void sort(double scores[], char grades[], int count);
 
+
+// The median is located in the middle of the array if the array’s size is odd. 
+// Otherwise, the median is the average of the middle two values.
+// Return the median to main() and output in main() with two decimal places.
+double median(double scores[], int count);
+
+
+
 // Main function
 // https://en.cppreference.com/w/cpp/language/main_function.html
-int main(int argc, char* argv[]) {
+int main() {
   double scores[MAX_SCORE_COUNT] = {0};
+  char grades[MAX_SCORE_COUNT] = {0};
   int count = 0;
   
   welcome();
   readScores(scores, count);
+  cout << MSG_STATS_HEADER << endl;
+  cout << MSG_LIST_SCORES << endl;
+  printList(scores, grades, count);
+
+  sort(scores, grades, count);
+  cout << MSG_LIST_SORTED << endl;
+  printList(scores, grades, count);
+ 
+  cout << LABEL_MEDIAN << fixed << setprecision(2) << median(scores, count) << endl;
+
+  cout << MSG_THANK_YOU << endl;
 
   return 0;
 }
@@ -111,6 +134,20 @@ void sort(double scores[], char grades[], int count) {
   gs::selectionSortParallel(scores, grades, count);
 }
 
+// Sort First! This function depends on a sorted array.
+double median(double scores[], int count) {
+  double n = 0.0;
+  int indexForOddCount = count / 2;
+  bool even = count % 2 == 0;
+  if(even) {
+    // For even count the median is the average of the middle two values.
+    n = (scores[indexForOddCount] + scores[indexForOddCount - 1]) / 2.0;
+  } else {
+    n = scores[indexForOddCount];
+  }
+  return n;
+}
+
 char scoreToChar(double score) {
   enum grades {A, B, C, D, F}; // Syntactic convenience A=0, B=1...F=4
   const double GRADE_CUTOFFS[] = {3.3, 2.7, 1.9, 1.1, 0.0};
@@ -132,7 +169,10 @@ void calcGrade(double scores[], char grades[], int count) {
 }
 
 void printList(double scores[], char grades[], int count) {
-  // TODO
+  cout << fixed << setprecision(1);
+  for(int i = 0; i < count; i++){
+    cout << scores[i] << ' ' << grades[i] << endl;
+  }
 }
 
 

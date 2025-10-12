@@ -12,5 +12,11 @@ const string MSG_TRY_AGAIN = "¡Por favor, inténtalo de nuevo!";
 const string ERR_INVALID_SCORE = "¡Puntuación no válida!";
 const string MSG_ADDITIONAL_SCORES_IGNORED = "Se alcanzó el número máximo de puntuaciones; las adicionales se ignorarán.";
 
+const string MSG_STATS_HEADER = "Sus estadísticas son las siguientes:";
+const string MSG_LIST_SCORES = "La lista de calificaciones y sus notas es:";
+const string MSG_LIST_SORTED = "La lista ordenada por calificaciones en orden ascendente:";
+const string LABEL_MEDIAN = "La calificación media es ";
+const string MSG_THANK_YOU = "¡Gracias por usar mi programa de Arreglos Paralelos!";
+
 
 #endif // LANG_ES_H

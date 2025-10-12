@@ -12,5 +12,11 @@ const string MSG_TRY_AGAIN = "Please try again!!";
 const string ERR_INVALID_SCORE = "Invalid score!";
 const string MSG_ADDITIONAL_SCORES_IGNORED = "Stored maximum scores, additional scores ignored.";
 
+const string MSG_STATS_HEADER = "Your stats are as below:";
+const string MSG_LIST_SCORES = "The list of scores and their grades are:";
+const string MSG_LIST_SORTED = "The list sorted by scores in ascending order:";
+const string LABEL_MEDIAN = "The median score is ";
+const string MSG_THANK_YOU = "Thank you for using my Parallel Arrays program!!";
+
 
 #endif // LANG_EN_H
