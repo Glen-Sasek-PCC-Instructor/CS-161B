@@ -74,7 +74,7 @@ Your job is to design and create a program to calculate the letter grade based o
 
 * **void printList(double scores\[\], char grades\[\], int count)**  
   * Go through a for loop and print the scores and the corresponding grades for each item.  
-* **void sort(double scores\[\], char grade\[\], int count)**  
+* **void sort(double scores\[\], char grades\[\], int count)**  
   * Sort the arrays using the given sorting algorithm. This is called Selection Sort. Use only this algorithm to sort your list. To see how the Selection Card Sort Algorithm works, watch this [video from Virginia Tech](https://youtu.be/TfOBNNNZPbM).  
   * Be careful and make sure you sort based on the scores array and swap the corresponding element in the **grade** array to maintain the correspondence between the two arrays. Meaning if you swap the scores in index 0 and 5, you must also swap the corresponding grades in index 0 and 5\.  
   * Watch this [Python Video](https://youtu.be/zcZYjCrv5Hg) to help you with the sorting algorithm. Try this [Selection Sort Animation by Y. Daniel Liang](https://liveexample.pearsoncmg.com/dsanimation13ejava/SelectionSorteBook.html).
