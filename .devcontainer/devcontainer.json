@@ -10,7 +10,8 @@
         "ms-vscode.cmake-tools",
         "GitHub.copilot",
         "GitHub.copilot-chat",
-        "mathematic.vscode-pdf"
+        "mathematic.vscode-pdf",
+        "ms-vscode.makefile-tools"
       ]
     }
   }
