@@ -56,7 +56,7 @@ Your job is to design and create a program to calculate the letter grade based o
 
   * You must catch all invalid data such as characters, negative numbers etc.
 
-* **void calcGrade(double scores\[\], char grade\[\], int count)**
+* **void calcGrade(double scores\[\], char grades\[\], int count)**
 
   * Use a loop to process each array element and calculate the letter grade for each score.
 
@@ -74,7 +74,7 @@ Your job is to design and create a program to calculate the letter grade based o
 
 * **void printList(double scores\[\], char grades\[\], int count)**  
   * Go through a for loop and print the scores and the corresponding grades for each item.  
-* **void sort(double scores\[\], char grade\[\], int count)**  
+* **void sort(double scores\[\], char grades\[\], int count)**  
   * Sort the arrays using the given sorting algorithm. This is called Selection Sort. Use only this algorithm to sort your list. To see how the Selection Card Sort Algorithm works, watch this [video from Virginia Tech](https://youtu.be/TfOBNNNZPbM).  
   * Be careful and make sure you sort based on the scores array and swap the corresponding element in the **grade** array to maintain the correspondence between the two arrays. Meaning if you swap the scores in index 0 and 5, you must also swap the corresponding grades in index 0 and 5\.  
   * Watch this [Python Video](https://youtu.be/zcZYjCrv5Hg) to help you with the sorting algorithm. Try this [Selection Sort Animation by Y. Daniel Liang](https://liveexample.pearsoncmg.com/dsanimation13ejava/SelectionSorteBook.html).
@@ -85,16 +85,18 @@ Your job is to design and create a program to calculate the letter grade based o
         list  : array of items
         count : size of list
         for i = 0 to count - 1
-        /* set current element as minimum*/
-          min = i    
-          /*go through the list and find the smallest element*/
-          for j = i+1 to count
+      
+          /* set current element as minimum */
+          min = i
+      
+          /*go through the list and find the smallest element */
+          for j = i + 1 to count
               if list[j] < list[min] then
                   min = j;
               end if
           end for
-          /* swap the minimum element with the current element
-      If they are not the same element*/
+      
+          /* swap the minimum element with the current element If they are not the same element */
           if min != i  then
               swap list[min] and list[i]
           end if
