@@ -85,16 +85,18 @@ Your job is to design and create a program to calculate the letter grade based o
         list  : array of items
         count : size of list
         for i = 0 to count - 1
-        /* set current element as minimum*/
-          min = i    
-          /*go through the list and find the smallest element*/
-          for j = i+1 to count
+      
+          /* set current element as minimum */
+          min = i
+      
+          /*go through the list and find the smallest element */
+          for j = i + 1 to count
               if list[j] < list[min] then
                   min = j;
               end if
           end for
-          /* swap the minimum element with the current element
-      If they are not the same element*/
+      
+          /* swap the minimum element with the current element If they are not the same element */
           if min != i  then
               swap list[min] and list[i]
           end if
