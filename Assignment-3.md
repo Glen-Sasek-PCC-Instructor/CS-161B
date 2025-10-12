@@ -151,6 +151,7 @@ Valid scores are between 0 and 4 inclusive.
 >> 1.5
 >> 4.0
 >> 3.7
+>> -1
 
 Your stats are as below: 
 
@@ -195,6 +196,7 @@ Invalid score! Please try again!!
 >> 4.0
 >> 3.7
 >> 4.0
+>> -1
 
 Your stats are as below: 
 
