@@ -56,7 +56,7 @@ Your job is to design and create a program to calculate the letter grade based o
 
   * You must catch all invalid data such as characters, negative numbers etc.
 
-* **void calcGrade(double scores\[\], char grade\[\], int count)**
+* **void calcGrade(double scores\[\], char grades\[\], int count)**
 
   * Use a loop to process each array element and calculate the letter grade for each score.
 
