@@ -126,7 +126,7 @@ Your job is to design and create a program to calculate the letter grade based o
 
   * Call the **median** function to find the median and print it in **main()**.
 
-* **Assume the arrays will always contain fewer than 20 values. You must not let the user enter more than 20 values.**  
+* **use const int MAX_SCORES = 20;**  
 
 * To get started, open the [Assignment Template File](https://github.com/Glen-Sasek-PCC-Instructor/2025-06-22/blob/main/main.cpp), and make a copy.
 
